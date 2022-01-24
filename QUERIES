@@ -1,0 +1,11 @@
+Return top 5 orders
+db.CART.find({},{_id:0, USER_ID:1,FINAL_AMOUNT:1}).sort({FINAL_AMOUNT:-1}).limit(5) 
+
+Find total order amount per user
+db.CART.aggregate([{$group: {_id: "$USER_ID", AMOUNT: {$sum:"$FINAL_AMOUNT"}}}]).pretty()
+
+Find how many times each product has been ordered
+db.CART.aggregate([ {$unwind: '$cartItems'}, {$group: {_id: '$cartItems.productId', count: {$sum: '$cartItems.quantity'}}} ])
+
+Find city with most orders
+db.CART.aggregate([ {$group: {_id: '$ADDRESS.CITY', count: {$sum: 1}}}, {$sort: {count:-1}}, {$limit: 1}])
