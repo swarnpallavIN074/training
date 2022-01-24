@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "61e66fbc934e8a7578af88c6"
+  },
+  "name": "Pen",
+  "price": 500,
+  "quantity": 1000
+},{
+  "_id": {
+    "$oid": "61e66fbc934e8a7578af88c7"
+  },
+  "name": "Book",
+  "price": 2000,
+  "quantity": 700
+},{
+  "_id": {
+    "$oid": "61e66fbc934e8a7578af88c8"
+  },
+  "name": "Bag",
+  "price": 1000,
+  "quantity": 350
+}]

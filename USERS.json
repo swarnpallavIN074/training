@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "61e6631d934e8a7578af88bf"
+  },
+  "firstName": "Swarn Pallav",
+  "lastName": "Bhaskar",
+  "email": "swarn.bhaskar@toothsi.in",
+  "password": "Swarn@123",
+  "phone": 6394972086,
+  "address": [
+    {
+      "street": "LuvKush Nagar",
+      "city": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "224001"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61e6631d934e8a7578af88c0"
+  },
+  "firstName": "Suryansh",
+  "lastName": "Tiwari",
+  "email": "suryansh@gmail.com",
+  "password": "Suryansh@123",
+  "phone": 6394982086,
+  "address": [
+    {
+      "street": "Koshalpuri",
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "223001"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61e66828934e8a7578af88c1"
+  },
+  "firstName": "Ritik",
+  "lastName": "SINGH",
+  "email": "ritik@gmail.com",
+  "password": "Ritik@123",
+  "phone": 7394972086,
+  "address": [
+    {
+      "street": "Auraiya",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "114002"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61e66828934e8a7578af88c2"
+  },
+  "firstName": "Anand",
+  "lastName": "Gupta",
+  "email": "anand@gmail.com",
+  "password": "Anand@123",
+  "phone": 9337053778,
+  "address": [
+    {
+      "street": "Auraiya",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "224003"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61e66990934e8a7578af88c3"
+  },
+  "firstName": "Prakhar",
+  "lastName": "Gupta",
+  "email": "prakhar@gmail.com",
+  "password": "Prakhar@123",
+  "phone": 9876543211,
+  "address": [
+    {
+      "street": "Lakhimpur Chouraha",
+      "city": "Lakhimpur Kheri",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "334001"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61e66b0c934e8a7578af88c5"
+  },
+  "firstName": "Gajendra",
+  "lastName": "Singh",
+  "email": "gajendra@gmail.com",
+  "password": "Gajendra@123",
+  "phone": 7801234569,
+  "address": [
+    {
+      "STREET": "Janaura",
+      "CITY": "Aligarh",
+      "STATE": "Uttar Pradesh",
+      "COUNTRY": "India",
+      "PINCODE": "442001"
+    }
+  ]
+}]

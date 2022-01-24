@@ -1,0 +1,213 @@
+[{
+  "_id": {
+    "$oid": "61e67f39934e8a7578af88c9"
+  },
+  "address": {
+    "street": "LuvKush Nagar",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "224001"
+  },
+  "amount": 3000,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c7",
+      "quantity": 1,
+      "price": 2000
+    },
+    {
+      "productId": "61e66fbc934e8a7578af88c8",
+      "quantity": 1,
+      "price": 1000
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 3000,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Cash",
+    "date": "2022-01-18"
+  },
+  "userId": {
+    "$oid": "61e6631d934e8a7578af88bf"
+  }
+},{
+  "_id": {
+    "$oid": "61e67f39934e8a7578af88ca"
+  },
+  "address": {
+    "street": "Koshalpuri",
+    "city": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "223001"
+  },
+  "amount": 2500,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c7",
+      "quantity": 1,
+      "price": 2000
+    },
+    {
+      "productId": "61e66fbc934e8a7578af88c6",
+      "quantity": 1,
+      "price": 500
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 2500,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Cash",
+    "date": "2022-01-16"
+  },
+  "userId": {
+    "$oid": "61e6631d934e8a7578af88c0"
+  }
+},{
+  "_id": {
+    "$oid": "61e682b2934e8a7578af88cb"
+  },
+  "address": {
+    "street": "Auraiya",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "114002"
+  },
+  "amount": 1000,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c8",
+      "quantity": 1
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 1000,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Online",
+    "date": "2022-01-01"
+  },
+  "userId": {
+    "$oid": "61e66828934e8a7578af88c1"
+  }
+},{
+  "_id": {
+    "$oid": "61e682b2934e8a7578af88cc"
+  },
+  "address": {
+    "street": "Auraiya",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "224003"
+  },
+  "amount": 500,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c6",
+      "quantity": 1,
+      "price": 500
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 500,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Cash",
+    "date": "2021-08-12"
+  },
+  "userId": {
+    "$oid": "61e66828934e8a7578af88c2"
+  }
+},{
+  "_id": {
+    "$oid": "61e68a08934e8a7578af88cd"
+  },
+  "address": {
+    "street": "Lakhimpur Chouraha",
+    "city": "Lakhimpur Kheri",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "334001"
+  },
+  "amount": 2000,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c8",
+      "quantity": 2,
+      "price": 1000
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 2000,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Online",
+    "date": "2021-04-13"
+  },
+  "userId": {
+    "$oid": "61e66990934e8a7578af88c3"
+  }
+},{
+  "_id": {
+    "$oid": "61e68a08934e8a7578af88ce"
+  },
+  "address": {
+    "street": "Janaura",
+    "city": "Aligarh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "442001"
+  },
+  "amount": 4000,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c7",
+      "quantity": 2,
+      "price": 2000
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 4000,
+  "orderStatus": "Pending",
+  "payment": {
+    "type": "Cash",
+    "date": "2022-01-18"
+  },
+  "userId": {
+    "$oid": "61e66b0c934e8a7578af88c5"
+  }
+},{
+  "_id": {
+    "$oid": "61e6d47f9e3d8c1ac2db907d"
+  },
+  "address": {
+    "street": "LuvKush Nagar",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "pincode": "224001"
+  },
+  "amount": 6000,
+  "cartItems": [
+    {
+      "productId": "61e66fbc934e8a7578af88c7",
+      "quantity": 3,
+      "price": 2000
+    }
+  ],
+  "discount": 0,
+  "finalAmount": 6000,
+  "orderStatus": "Completed",
+  "payment": {
+    "type": "Cash",
+    "date": "2022-01-13"
+  },
+  "userId": {
+    "$oid": "61e6631d934e8a7578af88bf"
+  }
+}]
