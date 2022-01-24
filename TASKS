@@ -1,0 +1,21 @@
+1. Create a simple Web Page having 2 pages
+Page 1 will have a link which will take us to page 2
+Page 2 will have a button which should open a dialogue box. When clicked on browser back button it should close the dialogue box instead of taking me to previous page i.e. page 1
+
+
+2. The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down
+Input :  m = 2, n = 2;
+Output : 2
+There are two paths
+(0, 0) -> (0, 1) -> (1, 1)
+(0, 0) -> (1, 0) -> (1, 1)
+
+Input :  m = 2, n = 3;
+Output : 3
+There are three paths
+(0, 0) -> (0, 1) -> (0, 2) -> (1, 2)
+(0, 0) -> (0, 1) -> (1, 1) -> (1, 2)
+(0, 0) -> (1, 0) -> (1, 1) -> (1, 2)
+
+3. Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+
