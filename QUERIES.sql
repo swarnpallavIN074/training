@@ -1,0 +1,19 @@
+-- Return All customer mobile who do not have any order. 
+SELECT PHONE FROM USERS LEFT JOIN CART ON USERS.USER_ID = CART.USER_ID WHERE CART_ID IS NULL;
+
+-- Return top 5 buyers and top 5 orders and top 5 most bought product
+SELECT USER_ID, SUM(TOTAL_AMOUNT) FROM CART GROUP BY USER_ID ORDER BY SUM(TOTAL_AMOUNT) DESC LIMIT 5;
+SELECT CART_ID, TOTAL_AMOUNT AS ORDERS FROM CART ORDER BY TOTAL_AMOUNT DESC LIMIT 5;
+SELECT PRODUCT_ID from CART_ITEM GROUP BY PRODUCT_ID ORDER BY SUM(QUANTITY) DESC LIMIT 5;
+
+-- Return city wise customer count
+SELECT DISTINCT CITY , COUNT(CITY) FROM ADDRESSES GROUP BY CITY;
+
+-- Return total amount of orders received till a particular time frame
+SELECT COUNT(CART_ID) FROM CART WHERE UPDATED_AT <= '2022-01-14 15:03:38';
+
+-- Find all the order having amount greater than average order amount
+SELECT CART_ID FROM CART WHERE TOTAL_AMOUNT > (SELECT AVG(TOTAL_AMOUNT) FROM CART);
+
+-- Give A Discount of 2000 To all in cart orders
+SELECT IF(TOTAL_AMOUNT - 2000 < 0, '0', TOTAL_AMOUNT - 2000) AS TOTAL_AMOUNT FROM CART;
