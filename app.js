@@ -42,7 +42,7 @@ app.get("/login/:username", (req, res) => {
         req.session.save();
         res.send(`${(user.username)}: logged in successfully`);
     } else {
-        res.status(401).send("User Not Found"); // 401 is for client request has not been completed
+        res.status(403).send("User Not Found"); // 403 is for Forbidden response 
     } console.log(req.session);
     console.log(req.sessionID);
 });
