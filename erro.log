@@ -1,0 +1,32 @@
+Response Code: 400 - Method: POST - URL: /string
+
+{"statusCode":400,"error":"Bad Request","path":"/string","method":"POST","timeStamp":"2022-01-28T04:11:56.844Z"}
+
+
+        BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/ampa/Desktop/assignment/node_modules/@nestjs/common/pipes/validation.pipe.js:89:20)
+    at ValidationPipe.transform (/Users/ampa/Desktop/assignment/node_modules/@nestjs/common/pipes/validation.pipe.js:65:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at resolveParamValue (/Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+Response Code: 400 - Method: POST - URL: /string
+
+{"statusCode":400,"error":"Bad Request","path":"/string","method":"POST","timeStamp":"2022-01-28T04:12:31.306Z"}
+
+
+        BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/ampa/Desktop/assignment/node_modules/@nestjs/common/pipes/validation.pipe.js:89:20)
+    at ValidationPipe.transform (/Users/ampa/Desktop/assignment/node_modules/@nestjs/common/pipes/validation.pipe.js:65:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at resolveParamValue (/Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /Users/ampa/Desktop/assignment/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
